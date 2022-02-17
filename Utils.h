@@ -5,6 +5,9 @@
 void limit(float& val, const float vmin, const float vmax);
 
 
+// Checking for ESP32
+// Could create a file file for just 'PeriodicTrigger.h'
+
 struct PeriodicTrigger {
     int period = 500, next, prev;
     int dt, dtMax, dtMin;
